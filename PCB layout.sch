@@ -1,0 +1,471 @@
+EESchema Schematic File Version 4
+LIBS:PCB layout-cache
+LIBS:Adafruit RFM+LoRa Breakout-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 7000 2850 0    70   ~ 0
+RST_5V
+Text Label 7000 2650 0    70   ~ 0
+MOSI_5V
+Text Label 7000 2450 0    70   ~ 0
+SCK_5V
+Text Label 7000 2750 0    70   ~ 0
+CS_5V
+Text Label 7000 2550 0    70   ~ 0
+MISO_3V
+Wire Wire Line
+	7600 2250 7000 2250
+Text Label 7000 2250 0    70   ~ 0
+EN
+Wire Wire Line
+	8200 2300 8800 2300
+Text Label 8200 2300 0    70   ~ 0
+DIO3
+Text Label 7000 2350 0    70   ~ 0
+DIO0
+Wire Wire Line
+	8800 2200 8200 2200
+Text Label 8200 2200 0    70   ~ 0
+DIO2
+Wire Wire Line
+	8800 2100 8200 2100
+Text Label 8200 2100 0    70   ~ 0
+DIO1
+Wire Wire Line
+	8800 2500 8200 2500
+Text Label 8200 2500 0    70   ~ 0
+DIO5
+Wire Wire Line
+	8200 2400 8800 2400
+Text Label 8200 2400 0    70   ~ 0
+DIO4
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:HEADER-1X570MIL JP2
+U 1 0 0B60073D
+P 8900 2300
+F 0 "JP2" H 8650 2625 59  0000 L BNN
+F 1 "HEADER-1X570MIL" H 8650 1900 59  0000 L BNN
+F 2 "Adafruit RFM+LoRa Breakout:1X05_ROUND_70" H 8900 2300 50  0001 C CNN
+F 3 "" H 8900 2300 50  0001 C CNN
+	1    8900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 2150 6850 2150
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:GND #U$014
+U 1 0 5210CFB4
+P 6850 2250
+F 0 "#U$014" H 6850 2250 50  0001 C CNN
+F 1 "GND" H 6790 2150 42  0000 L BNN
+F 2 "" H 6850 2250 50  0001 C CNN
+F 3 "" H 6850 2250 50  0001 C CNN
+	1    6850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:VIN #U$013
+U 1 0 44B01CF5
+P 6850 1850
+F 0 "#U$013" H 6850 1850 50  0001 C CNN
+F 1 "VIN" H 6790 1890 42  0000 L BNN
+F 2 "" H 6850 1850 50  0001 C CNN
+F 3 "" H 6850 1850 50  0001 C CNN
+	1    6850 1850
+	1    0    0    -1  
+$EndComp
+Text Label 6850 1950 0    10   ~ 0
+VIN
+Wire Wire Line
+	6850 1950 6850 2050
+Text Label 6850 2150 0    10   ~ 0
+GND
+Connection ~ 6850 2050
+Wire Wire Line
+	6850 2050 7600 2050
+Connection ~ 6850 2150
+Wire Wire Line
+	6850 2150 7600 2150
+$Comp
+L Connector_Generic:Conn_01x03 GPSCONNECT1
+U 1 1 5CADE3C4
+P 7650 3450
+F 0 "GPSCONNECT1" H 7730 3492 50  0000 L CNN
+F 1 "Conn_01x03" H 7730 3401 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 7650 3450 50  0001 C CNN
+F 3 "~" H 7650 3450 50  0001 C CNN
+	1    7650 3450
+	1    0    0    -1  
+$EndComp
+Text Label 7350 3350 0    50   ~ 0
+TX
+Text Label 7350 3450 0    50   ~ 0
+GND
+Text Label 7350 3550 0    50   ~ 0
+VCC
+Connection ~ 4650 4500
+Wire Wire Line
+	4650 5000 4750 5000
+Wire Wire Line
+	4650 4500 4650 5000
+Wire Wire Line
+	4850 4500 4650 4500
+Wire Wire Line
+	4750 4400 4750 4700
+Wire Wire Line
+	4750 4400 4850 4400
+Connection ~ 3650 4500
+Wire Wire Line
+	3650 5000 4050 5000
+Wire Wire Line
+	3650 4500 3650 5000
+Wire Wire Line
+	3850 4500 3650 4500
+Connection ~ 3750 4400
+Wire Wire Line
+	3750 4700 4050 4700
+Wire Wire Line
+	3750 4400 3750 4700
+Wire Wire Line
+	3750 4400 3850 4400
+Wire Wire Line
+	3850 4300 3850 2450
+Connection ~ 2750 4500
+Wire Wire Line
+	2750 5000 3150 5000
+Wire Wire Line
+	2750 4500 2750 5000
+Wire Wire Line
+	2750 4500 2950 4500
+Connection ~ 2850 4400
+Wire Wire Line
+	2850 4700 3150 4700
+Wire Wire Line
+	2850 4400 2850 4700
+Wire Wire Line
+	2950 4400 2850 4400
+Wire Wire Line
+	2950 4300 2950 2150
+$Comp
+L Connector_Generic:Conn_01x03 SENSOR4
+U 1 1 5CAF1293
+P 6050 4400
+F 0 "SENSOR4" H 6130 4442 50  0000 L CNN
+F 1 "Conn_01x03" H 6130 4351 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 6050 4400 50  0001 C CNN
+F 3 "~" H 6050 4400 50  0001 C CNN
+	1    6050 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5CAF128D
+P 6050 4850
+F 0 "R4" H 6120 4896 50  0000 L CNN
+F 1 "10K" H 6120 4805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 5980 4850 50  0001 C CNN
+F 3 "~" H 6050 4850 50  0001 C CNN
+	1    6050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5CAF07D5
+P 4750 4850
+F 0 "R3" H 4820 4896 50  0000 L CNN
+F 1 "10K" H 4820 4805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 4680 4850 50  0001 C CNN
+F 3 "~" H 4750 4850 50  0001 C CNN
+	1    4750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 SENSOR2
+U 1 1 5CAEFB7D
+P 4050 4400
+F 0 "SENSOR2" H 4130 4442 50  0000 L CNN
+F 1 "Conn_01x03" H 4130 4351 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 4050 4400 50  0001 C CNN
+F 3 "~" H 4050 4400 50  0001 C CNN
+	1    4050 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5CAEFB77
+P 4050 4850
+F 0 "R2" H 4120 4896 50  0000 L CNN
+F 1 "10K" H 4120 4805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3980 4850 50  0001 C CNN
+F 3 "~" H 4050 4850 50  0001 C CNN
+	1    4050 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 SENSOR1
+U 1 1 5CAE572E
+P 3150 4400
+F 0 "SENSOR1" H 3230 4442 50  0000 L CNN
+F 1 "Conn_01x03" H 3230 4351 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-3_P5.00mm" H 3150 4400 50  0001 C CNN
+F 3 "~" H 3150 4400 50  0001 C CNN
+	1    3150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L TheThing:ESP32_THING_W_ANT_KEEPOUT B1
+U 1 1 5C9E9D3C
+P 5550 2950
+F 0 "B1" H 5550 4310 45  0000 C CNN
+F 1 "ESP32_THING_W_ANT_KEEPOUT" H 5550 4226 45  0000 C CNN
+F 2 "SeniorProject:ESP32_THING_NO_ANT" H 5550 4150 20  0001 C CNN
+F 3 "" H 5550 2950 50  0001 C CNN
+F 4 "DEV-13907" H 5550 4131 60  0000 C CNN "Field4"
+	1    5550 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5C9EA8E4
+P 3150 4850
+F 0 "R1" H 3220 4896 50  0000 L CNN
+F 1 "10K" H 3220 4805 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 3080 4850 50  0001 C CNN
+F 3 "~" H 3150 4850 50  0001 C CNN
+	1    3150 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2850 5000 2850
+Wire Wire Line
+	5000 2850 5000 4000
+Wire Wire Line
+	5000 4000 5850 4000
+Wire Wire Line
+	5850 4000 5850 4300
+Wire Wire Line
+	5050 2950 4950 2950
+Wire Wire Line
+	4950 2950 4950 4050
+Wire Wire Line
+	4950 4050 5750 4050
+Wire Wire Line
+	5750 4050 5750 4400
+Wire Wire Line
+	5750 4400 5850 4400
+Wire Wire Line
+	5750 4400 5750 4700
+Wire Wire Line
+	5750 4700 6050 4700
+Connection ~ 5750 4400
+Wire Wire Line
+	5050 3050 4900 3050
+Wire Wire Line
+	4900 3050 4900 4100
+Wire Wire Line
+	4900 4100 5650 4100
+Wire Wire Line
+	5650 4100 5650 4500
+Wire Wire Line
+	5650 4500 5850 4500
+Wire Wire Line
+	5650 4500 5650 5000
+Wire Wire Line
+	5650 5000 6050 5000
+Connection ~ 5650 4500
+Wire Wire Line
+	6400 2050 6850 2050
+Wire Wire Line
+	7100 3550 7100 3450
+Wire Wire Line
+	7100 3450 6400 3450
+Wire Wire Line
+	7100 3550 7450 3550
+Wire Wire Line
+	7200 3450 7200 3650
+Wire Wire Line
+	7200 3650 7000 3650
+Wire Wire Line
+	7000 3650 7000 3550
+Wire Wire Line
+	7000 3550 6500 3550
+Wire Wire Line
+	7200 3450 7450 3450
+Wire Wire Line
+	6050 3350 7450 3350
+Wire Wire Line
+	6400 2050 6400 3450
+Connection ~ 6400 3450
+Wire Wire Line
+	6400 3450 6050 3450
+Wire Wire Line
+	6750 2150 6500 2150
+Wire Wire Line
+	6500 2150 6500 3550
+Connection ~ 6500 3550
+Wire Wire Line
+	6500 3550 6050 3550
+Wire Wire Line
+	6700 2450 6700 2650
+Wire Wire Line
+	6700 2650 6050 2650
+Wire Wire Line
+	6700 2450 7600 2450
+Wire Wire Line
+	6300 2550 6300 2450
+Wire Wire Line
+	6300 2450 6050 2450
+Wire Wire Line
+	6300 2550 7600 2550
+Wire Wire Line
+	6800 2650 6800 2750
+Wire Wire Line
+	6800 2750 6200 2750
+Wire Wire Line
+	6200 2750 6200 2550
+Wire Wire Line
+	6200 2550 6050 2550
+Wire Wire Line
+	6800 2650 7600 2650
+Wire Wire Line
+	6600 2350 6600 3150
+Wire Wire Line
+	6600 3150 6050 3150
+Wire Wire Line
+	6600 2350 7600 2350
+Wire Wire Line
+	6900 2750 7600 2750
+Wire Wire Line
+	6900 2750 6900 2950
+Wire Wire Line
+	6900 2950 6050 2950
+Wire Wire Line
+	7600 2850 7000 2850
+Wire Wire Line
+	7000 2850 7000 3050
+Wire Wire Line
+	7000 3050 6050 3050
+Wire Wire Line
+	4850 2750 5050 2750
+Wire Wire Line
+	4650 2550 4650 4500
+Connection ~ 4750 4400
+Wire Wire Line
+	4750 2650 4750 4400
+Wire Wire Line
+	5050 2650 4750 2650
+Wire Wire Line
+	4650 2550 5050 2550
+Wire Wire Line
+	3850 2450 5050 2450
+Wire Wire Line
+	3750 2350 5050 2350
+Wire Wire Line
+	3750 2350 3750 4400
+Wire Wire Line
+	3650 2250 3650 4500
+Wire Wire Line
+	2950 2150 5050 2150
+Wire Wire Line
+	2750 1950 2750 4500
+Wire Wire Line
+	2850 2050 2850 4400
+Wire Wire Line
+	5050 2050 2850 2050
+Wire Wire Line
+	2750 1950 5050 1950
+Wire Wire Line
+	3650 2250 5050 2250
+$Comp
+L Device:R R_BJT1
+U 1 1 5CBF8611
+P 5200 5300
+F 0 "R_BJT1" H 5270 5346 50  0000 L CNN
+F 1 "10K" H 5270 5255 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P12.70mm_Horizontal" V 5130 5300 50  0001 C CNN
+F 3 "~" H 5200 5300 50  0001 C CNN
+	1    5200 5300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5050 3150 4550 3150
+Wire Wire Line
+	4550 5450 5200 5450
+$Comp
+L Transistor_BJT:2SB631 Q1
+U 1 1 5CC13613
+P 5200 4950
+F 0 "Q1" V 5528 4950 50  0000 C CNN
+F 1 "2P222" V 5437 4950 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92L_Inline_Wide" H 5400 4875 50  0001 L CIN
+F 3 "http://pdf.datasheetcatalog.com/datasheet/sanyo/ds_pdf_e/2SB631.pdf" H 5200 4950 50  0001 L CNN
+	1    5200 4950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 3150 4550 5450
+Wire Wire Line
+	5000 4850 5000 4750
+Wire Wire Line
+	5000 4750 4850 4750
+Wire Wire Line
+	5400 4950 5400 5050
+Wire Wire Line
+	5400 5050 5500 5050
+Wire Wire Line
+	5500 5050 5500 4150
+Wire Wire Line
+	5500 4150 5050 4150
+Wire Wire Line
+	5050 4150 5050 3850
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 5CC29F93
+P 5600 4950
+F 0 "J2" H 5572 4832 50  0000 R CNN
+F 1 "Conn_01x02_Male" H 5572 4923 50  0000 R CNN
+F 2 "Connector_JST:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal" H 5600 4950 50  0001 C CNN
+F 3 "~" H 5600 4950 50  0001 C CNN
+	1    5600 4950
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 SENSOR3
+U 1 1 5CBF362B
+P 5050 4300
+F 0 "SENSOR3" H 5130 4292 50  0000 L CNN
+F 1 "Conn_01x04" H 5130 4201 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-4_P5.00mm" H 5130 4155 50  0001 L CNN
+F 3 "~" H 5050 4300 50  0001 C CNN
+	1    5050 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4100 4800 4100
+Wire Wire Line
+	4800 4100 4800 4300
+Wire Wire Line
+	4800 4300 4850 4300
+Wire Wire Line
+	4850 2750 4850 4100
+Wire Wire Line
+	4850 4200 4450 4200
+Wire Wire Line
+	4450 4200 4450 4600
+Wire Wire Line
+	4450 4600 4850 4600
+Wire Wire Line
+	4850 4600 4850 4750
+$EndSCHEMATC
