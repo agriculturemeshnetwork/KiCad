@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name SeniorProject)(type KiCad)(uri "C:/Academics/Senior Project/KiCad/PCB layout")(options "")(descr ""))
+  (lib (name TheThingESP32)(type KiCad)(uri ${KIPRJMOD}/TheThingESP32.mod)(options "")(descr ""))
+  (lib (name "PCB layout")(type KiCad)(uri "C:/Academics/Senior Project/KiCad/PCB layout.pretty")(options "")(descr ""))
+  (lib (name "Adafruit RFM+LoRa Breakout")(type KiCad)(uri "${KIPRJMOD}/Adafruit RFM+LoRa Breakout/Adafruit RFM+LoRa Breakout.pretty")(options "")(descr ""))
+  (lib (name Libaries)(type KiCad)(uri ${KIPRJMOD}/Libaries.pretty)(options "")(descr ""))
+)

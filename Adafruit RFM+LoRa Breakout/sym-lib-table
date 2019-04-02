@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Adafruit_RFM+LoRa_Breakout-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_RFM+LoRa_Breakout-eagle-import.lib)(options "")(descr ""))
+)

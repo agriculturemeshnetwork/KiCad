@@ -1,0 +1,602 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr User 12043 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3400 4100 2400 4100
+Wire Wire Line
+	2400 4100 2400 4200
+Wire Wire Line
+	2400 4100 2400 3500
+Connection ~ 2400 4100
+Text Label 3400 4100 0    10   ~ 0
+GND
+Wire Wire Line
+	6900 1600 6100 1600
+Wire Wire Line
+	6100 1600 6100 1700
+Wire Wire Line
+	6100 1700 6100 1800
+Wire Wire Line
+	6100 1700 5900 1700
+Connection ~ 6100 1700
+Text Label 6900 1600 0    10   ~ 0
+GND
+Wire Wire Line
+	6100 3600 5400 3600
+Wire Wire Line
+	5400 3600 5400 3700
+Wire Wire Line
+	6100 2900 5400 2900
+Wire Wire Line
+	5400 2900 5400 3600
+Connection ~ 5400 3600
+Text Label 6100 3600 0    10   ~ 0
+GND
+Wire Wire Line
+	8200 3600 8200 3700
+Wire Wire Line
+	7100 3500 8000 3500
+Wire Wire Line
+	8000 3500 8000 3700
+Wire Wire Line
+	8000 3700 8200 3700
+Connection ~ 8200 3700
+Text Label 8200 3600 0    10   ~ 0
+GND
+Wire Wire Line
+	7700 4200 7800 4200
+Wire Wire Line
+	7800 4200 7800 4400
+Wire Wire Line
+	7700 4000 7800 4000
+Wire Wire Line
+	7800 4000 7800 4200
+Connection ~ 7800 4200
+Text Label 7700 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	7100 4200 7000 4200
+Wire Wire Line
+	7000 4200 7000 4400
+Wire Wire Line
+	7100 4000 7000 4000
+Wire Wire Line
+	7000 4000 7000 4200
+Connection ~ 7000 4200
+Text Label 7100 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	9100 2200 10000 2200
+Text Label 9100 2200 0    10   ~ 0
+GND
+Wire Wire Line
+	3400 2700 2400 2700
+Wire Wire Line
+	2400 2700 2400 2600
+Wire Wire Line
+	2400 2700 2400 3200
+Connection ~ 2400 2700
+Text Label 3400 2700 0    10   ~ 0
+3.3V
+Wire Wire Line
+	7700 1400 7800 1400
+Wire Wire Line
+	7800 1400 7800 1300
+Text Label 7700 1400 0    10   ~ 0
+3.3V
+Wire Wire Line
+	7100 3200 8200 3200
+Wire Wire Line
+	8200 3200 8200 3100
+Wire Wire Line
+	8200 3200 8200 3300
+Connection ~ 8200 3200
+Text Label 7100 3200 0    10   ~ 0
+3.3V
+Wire Wire Line
+	4200 3300 4800 3300
+Text Label 4300 3300 0    70   ~ 0
+RST_3V
+Wire Wire Line
+	5500 3400 6100 3400
+Text Label 5500 3400 0    70   ~ 0
+RST_3V
+Wire Wire Line
+	4200 2900 4800 2900
+Text Label 4300 2900 0    70   ~ 0
+MOSI_3V
+Wire Wire Line
+	5500 3100 6100 3100
+Text Label 5500 3100 0    70   ~ 0
+MOSI_3V
+Wire Wire Line
+	4200 3100 4800 3100
+Text Label 4300 3100 0    70   ~ 0
+SCK_3V
+Wire Wire Line
+	5500 3200 6100 3200
+Text Label 5500 3200 0    70   ~ 0
+SCK_3V
+Wire Wire Line
+	4200 3500 4800 3500
+Text Label 4300 3500 0    70   ~ 0
+CS_3V
+Wire Wire Line
+	5500 3300 6100 3300
+Text Label 5500 3300 0    70   ~ 0
+CS_3V
+Wire Wire Line
+	3400 3300 2800 3300
+Text Label 2800 3300 0    70   ~ 0
+RST_5V
+Wire Wire Line
+	8500 2500 8500 2900
+Wire Wire Line
+	8500 2900 10000 2900
+Text Label 9400 2900 0    70   ~ 0
+RST_5V
+Wire Wire Line
+	3400 2900 2800 2900
+Text Label 2800 2900 0    70   ~ 0
+MOSI_5V
+Wire Wire Line
+	10000 2700 9400 2700
+Text Label 9400 2700 0    70   ~ 0
+MOSI_5V
+Wire Wire Line
+	3400 3100 2800 3100
+Text Label 2800 3100 0    70   ~ 0
+SCK_5V
+Wire Wire Line
+	10000 2500 9400 2500
+Text Label 9400 2500 0    70   ~ 0
+SCK_5V
+Wire Wire Line
+	2800 3500 3400 3500
+Text Label 2800 3500 0    70   ~ 0
+CS_5V
+Wire Wire Line
+	8800 2800 10000 2800
+Wire Wire Line
+	8800 2800 8800 2500
+Text Label 9400 2800 0    70   ~ 0
+CS_5V
+Wire Wire Line
+	6900 1400 6100 1400
+Wire Wire Line
+	6100 1400 6100 1300
+Wire Wire Line
+	6100 1400 5900 1400
+Wire Wire Line
+	6200 1500 6100 1500
+Wire Wire Line
+	6100 1500 6100 1400
+Connection ~ 6100 1400
+Text Label 6900 1400 0    10   ~ 0
+VIN
+Wire Wire Line
+	9100 2000 9100 2100
+Wire Wire Line
+	9100 2100 10000 2100
+Text Label 9100 2000 0    10   ~ 0
+VIN
+Wire Wire Line
+	8800 2000 8800 2100
+Text Label 8800 2000 0    10   ~ 0
+VIN
+Wire Wire Line
+	8500 2000 8500 2100
+Text Label 8500 2000 0    10   ~ 0
+VIN
+Wire Wire Line
+	6100 3000 5500 3000
+Text Label 5500 3000 0    70   ~ 0
+MISO_3V
+Wire Wire Line
+	10000 2600 9400 2600
+Text Label 9400 2600 0    70   ~ 0
+MISO_3V
+Wire Wire Line
+	6900 1500 6600 1500
+Text Label 6700 1500 0    70   ~ 0
+EN
+Wire Wire Line
+	10000 2300 9400 2300
+Text Label 9400 2300 0    70   ~ 0
+EN
+Wire Wire Line
+	7100 3600 7400 3600
+Wire Wire Line
+	7400 3600 7400 3800
+Connection ~ 7400 3600
+Wire Wire Line
+	9400 4000 10000 4000
+Text Label 9400 4000 0    70   ~ 0
+DIO3
+Wire Wire Line
+	7100 3400 7700 3400
+Text Label 7200 3400 0    70   ~ 0
+DIO3
+Wire Wire Line
+	7700 3100 7100 3100
+Text Label 7200 3100 0    70   ~ 0
+DIO0
+Wire Wire Line
+	10000 2400 9400 2400
+Text Label 9400 2400 0    70   ~ 0
+DIO0
+Wire Wire Line
+	10000 3900 9400 3900
+Text Label 9400 3900 0    70   ~ 0
+DIO2
+Wire Wire Line
+	7700 2900 7100 2900
+Text Label 7200 2900 0    70   ~ 0
+DIO2
+Wire Wire Line
+	10000 3800 9400 3800
+Text Label 9400 3800 0    70   ~ 0
+DIO1
+Wire Wire Line
+	7700 3000 7100 3000
+Text Label 7200 3000 0    70   ~ 0
+DIO1
+Wire Wire Line
+	10000 4200 9400 4200
+Text Label 9400 4200 0    70   ~ 0
+DIO5
+Wire Wire Line
+	6100 3500 5500 3500
+Text Label 5500 3500 0    70   ~ 0
+DIO5
+Wire Wire Line
+	7100 3300 7700 3300
+Text Label 7200 3300 0    70   ~ 0
+DIO4
+Wire Wire Line
+	9400 4100 10000 4100
+Text Label 9400 4100 0    70   ~ 0
+DIO4
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:FRAME_A4_ADAFRUIT #U$1
+U 1 0 89E33A62
+P 1100 7000
+F 0 "#U$1" H 1100 7000 50  0001 C CNN
+F 1 "FRAME_A4_ADAFRUIT" H 1100 7000 50  0001 C CNN
+F 2 "" H 1100 7000 50  0001 C CNN
+F 3 "" H 1100 7000 50  0001 C CNN
+	1    1100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:RFM69HCW_SMT U1
+U 1 0 B2748794
+P 6600 3200
+F 0 "U1" H 6200 3900 42  0000 L BNN
+F 1 "RFM69HCW" H 6200 2400 42  0000 L BNN
+F 2 "Adafruit RFM+LoRa Breakout:RFMHCW_SMT" H 6600 3200 50  0001 C CNN
+F 3 "" H 6600 3200 50  0001 C CNN
+	1    6600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:74HC4050DTSSOP U2
+U 1 0 68C8BDA7
+P 3800 3400
+F 0 "U2" H 3500 4300 42  0000 L BNN
+F 1 "74HC4050D" H 3500 2500 42  0000 L BNN
+F 2 "Adafruit RFM+LoRa Breakout:TSSOP16" H 3800 3400 50  0001 C CNN
+F 3 "" H 3800 3400 50  0001 C CNN
+	1    3800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:3.3V #U$02
+U 1 0 87B7DF34
+P 2400 2500
+F 0 "#U$02" H 2400 2500 50  0001 C CNN
+F 1 "3.3V" H 2340 2540 42  0000 L BNN
+F 2 "" H 2400 2500 50  0001 C CNN
+F 3 "" H 2400 2500 50  0001 C CNN
+	1    2400 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:GND #U$03
+U 1 0 6E1B97F5
+P 2400 4300
+F 0 "#U$03" H 2400 4300 50  0001 C CNN
+F 1 "GND" H 2340 4200 42  0000 L BNN
+F 2 "" H 2400 4300 50  0001 C CNN
+F 3 "" H 2400 4300 50  0001 C CNN
+	1    2400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE C2
+U 1 0 C8DDE19D
+P 2400 3400
+F 0 "C2" V 2310 3449 50  0000 C CNN
+F 1 "0.1uF" V 2490 3449 50  0000 C CNN
+F 2 "Adafruit RFM+LoRa Breakout:0805-NO" H 2400 3400 50  0001 C CNN
+F 3 "" H 2400 3400 50  0001 C CNN
+	1    2400 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:VREG_SOT23-5 U3
+U 1 0 7327D04C
+P 7300 1500
+F 0 "U3" H 7000 1740 42  0000 L BNN
+F 1 "AP2112K-3.3" H 7000 1200 42  0000 L BNN
+F 2 "Adafruit RFM+LoRa Breakout:SOT23-5" H 7300 1500 50  0001 C CNN
+F 3 "" H 7300 1500 50  0001 C CNN
+	1    7300 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:VIN #U$010
+U 1 0 2B263A79
+P 6100 1200
+F 0 "#U$010" H 6100 1200 50  0001 C CNN
+F 1 "VIN" H 6040 1240 42  0000 L BNN
+F 2 "" H 6100 1200 50  0001 C CNN
+F 3 "" H 6100 1200 50  0001 C CNN
+	1    6100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:GND #U$011
+U 1 0 ABBF7E6D
+P 6100 1900
+F 0 "#U$011" H 6100 1900 50  0001 C CNN
+F 1 "GND" H 6040 1800 42  0000 L BNN
+F 2 "" H 6100 1900 50  0001 C CNN
+F 3 "" H 6100 1900 50  0001 C CNN
+	1    6100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE C3
+U 1 0 C3EA450F
+P 5900 1600
+F 0 "C3" V 5810 1649 50  0000 C CNN
+F 1 "10uF" V 5990 1649 50  0000 C CNN
+F 2 "Adafruit RFM+LoRa Breakout:0805-NO" H 5900 1600 50  0001 C CNN
+F 3 "" H 5900 1600 50  0001 C CNN
+	1    5900 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:3.3V #U$012
+U 1 0 FCFA34DC
+P 7800 1200
+F 0 "#U$012" H 7800 1200 50  0001 C CNN
+F 1 "3.3V" H 7740 1240 42  0000 L BNN
+F 2 "" H 7800 1200 50  0001 C CNN
+F 3 "" H 7800 1200 50  0001 C CNN
+	1    7800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:GND #U$04
+U 1 0 649D799B
+P 5400 3800
+F 0 "#U$04" H 5400 3800 50  0001 C CNN
+F 1 "GND" H 5340 3700 42  0000 L BNN
+F 2 "" H 5400 3800 50  0001 C CNN
+F 3 "" H 5400 3800 50  0001 C CNN
+	1    5400 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:3.3V #U$05
+U 1 0 BCE09641
+P 8200 3000
+F 0 "#U$05" H 8200 3000 50  0001 C CNN
+F 1 "3.3V" H 8140 3040 42  0000 L BNN
+F 2 "" H 8200 3000 50  0001 C CNN
+F 3 "" H 8200 3000 50  0001 C CNN
+	1    8200 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:CAP_CERAMIC0805-NOOUTLINE C1
+U 1 0 E7D47EA7
+P 8200 3500
+F 0 "C1" V 8110 3549 50  0000 C CNN
+F 1 "10uF" V 8290 3549 50  0000 C CNN
+F 2 "Adafruit RFM+LoRa Breakout:0805-NO" H 8200 3500 50  0001 C CNN
+F 3 "" H 8200 3500 50  0001 C CNN
+	1    8200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:GND #U$06
+U 1 0 CE08125E
+P 8200 3800
+F 0 "#U$06" H 8200 3800 50  0001 C CNN
+F 1 "GND" H 8140 3700 42  0000 L BNN
+F 2 "" H 8200 3800 50  0001 C CNN
+F 3 "" H 8200 3800 50  0001 C CNN
+	1    8200 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:FIDUCIAL"" FID1
+U 1 0 57AF2ED6
+P 11000 5400
+F 0 "FID1" H 11000 5400 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 11000 5400 50  0001 C CNN
+F 2 "Adafruit RFM+LoRa Breakout:FIDUCIAL_1MM" H 11000 5400 50  0001 C CNN
+F 3 "" H 11000 5400 50  0001 C CNN
+	1    11000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:FIDUCIAL"" FID2
+U 1 0 AD69ACBC
+P 10900 5400
+F 0 "FID2" H 10900 5400 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 10900 5400 50  0001 C CNN
+F 2 "Adafruit RFM+LoRa Breakout:FIDUCIAL_1MM" H 10900 5400 50  0001 C CNN
+F 3 "" H 10900 5400 50  0001 C CNN
+	1    10900 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:RESISTOR0805_NOOUTLINE R1
+U 1 0 AA571318
+P 6400 1500
+F 0 "R1" H 6400 1600 50  0000 C CNN
+F 1 "100K" H 6400 1500 40  0000 C CNB
+F 2 "Adafruit RFM+LoRa Breakout:0805-NO" H 6400 1500 50  0001 C CNN
+F 3 "" H 6400 1500 50  0001 C CNN
+	1    6400 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:SMACONNECTOR_EDGE_UFL X1
+U 1 0 1F5C26EB
+P 7400 4100
+F 0 "X1" H 7700 4200 42  0000 L BNN
+F 1 "uFL/SMA" H 7700 4100 42  0000 L BNN
+F 2 "Adafruit RFM+LoRa Breakout:SMA_EDGELAUNCH_UFL" H 7400 4100 50  0001 C CNN
+F 3 "" H 7400 4100 50  0001 C CNN
+	1    7400 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:GND #U$09
+U 1 0 9E0009A5
+P 7800 4500
+F 0 "#U$09" H 7800 4500 50  0001 C CNN
+F 1 "GND" H 7740 4400 42  0000 L BNN
+F 2 "" H 7800 4500 50  0001 C CNN
+F 3 "" H 7800 4500 50  0001 C CNN
+	1    7800 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:GND #U$07
+U 1 0 63C62AE7
+P 7000 4500
+F 0 "#U$07" H 7000 4500 50  0001 C CNN
+F 1 "GND" H 6940 4400 42  0000 L BNN
+F 2 "" H 7000 4500 50  0001 C CNN
+F 3 "" H 7000 4500 50  0001 C CNN
+	1    7000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:HEADER-1X970MIL JP3
+U 1 0 8182258E
+P 10100 2500
+F 0 "JP3" H 9850 3025 59  0000 L BNN
+F 1 "HEADER-1X970MIL" H 9850 1900 59  0000 L BNN
+F 2 "Adafruit RFM+LoRa Breakout:1X09_ROUND_70" H 10100 2500 50  0001 C CNN
+F 3 "" H 10100 2500 50  0001 C CNN
+	1    10100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:VIN #U$016
+U 1 0 44B01CF5
+P 9100 1900
+F 0 "#U$016" H 9100 1900 50  0001 C CNN
+F 1 "VIN" H 9040 1940 42  0000 L BNN
+F 2 "" H 9100 1900 50  0001 C CNN
+F 3 "" H 9100 1900 50  0001 C CNN
+	1    9100 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:GND #U$018
+U 1 0 5210CFB4
+P 9100 2300
+F 0 "#U$018" H 9100 2300 50  0001 C CNN
+F 1 "GND" H 9040 2200 42  0000 L BNN
+F 2 "" H 9100 2300 50  0001 C CNN
+F 3 "" H 9100 2300 50  0001 C CNN
+	1    9100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:HEADER-1X570MIL JP1
+U 1 0 0B60073D
+P 10100 4000
+F 0 "JP1" H 9850 4325 59  0000 L BNN
+F 1 "HEADER-1X570MIL" H 9850 3600 59  0000 L BNN
+F 2 "Adafruit RFM+LoRa Breakout:1X05_ROUND_70" H 10100 4000 50  0001 C CNN
+F 3 "" H 10100 4000 50  0001 C CNN
+	1    10100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:RESISTOR0805_NOOUTLINE R2
+U 1 0 7B6FF4A5
+P 8800 2300
+F 0 "R2" H 8800 2400 50  0000 C CNN
+F 1 "100K" H 8800 2300 40  0000 C CNB
+F 2 "Adafruit RFM+LoRa Breakout:0805-NO" H 8800 2300 50  0001 C CNN
+F 3 "" H 8800 2300 50  0001 C CNN
+	1    8800 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:VIN #U$017
+U 1 0 29AF302F
+P 8800 1900
+F 0 "#U$017" H 8800 1900 50  0001 C CNN
+F 1 "VIN" H 8740 1940 42  0000 L BNN
+F 2 "" H 8800 1900 50  0001 C CNN
+F 3 "" H 8800 1900 50  0001 C CNN
+	1    8800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:HEADER-1X1ROUND JP2
+U 1 0 BAFA783C
+P 7500 3600
+F 0 "JP2" H 7250 3725 59  0000 L BNN
+F 1 "HEADER-1X1ROUND" H 7250 3400 59  0000 L BNN
+F 2 "Adafruit RFM+LoRa Breakout:1X01_ROUND" H 7500 3600 50  0001 C CNN
+F 3 "" H 7500 3600 50  0001 C CNN
+	1    7500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:RESISTOR0805_NOOUTLINE R3
+U 1 0 5E3BF956
+P 8500 2300
+F 0 "R3" H 8500 2400 50  0000 C CNN
+F 1 "100K" H 8500 2300 40  0000 C CNB
+F 2 "Adafruit RFM+LoRa Breakout:0805-NO" H 8500 2300 50  0001 C CNN
+F 3 "" H 8500 2300 50  0001 C CNN
+	1    8500 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_RFM+LoRa_Breakout-eagle-import:VIN #U$013
+U 1 0 33430DC8
+P 8500 1900
+F 0 "#U$013" H 8500 1900 50  0001 C CNN
+F 1 "VIN" H 8440 1940 42  0000 L BNN
+F 2 "" H 8500 1900 50  0001 C CNN
+F 3 "" H 8500 1900 50  0001 C CNN
+	1    8500 1900
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
