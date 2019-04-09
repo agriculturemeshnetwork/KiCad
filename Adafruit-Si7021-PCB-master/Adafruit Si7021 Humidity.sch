@@ -1,0 +1,541 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr User 11988 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5100 2400 4600 2400
+Wire Wire Line
+	4600 2400 4600 2200
+Wire Wire Line
+	4000 2200 4600 2200
+Connection ~ 4600 2400
+Text Label 4000 2200 0    70   ~ 0
+SDA_3.3V
+Wire Wire Line
+	5600 4000 6200 4000
+Text Label 5700 4000 0    70   ~ 0
+SDA_3.3V
+Wire Wire Line
+	4600 2100 4000 2100
+Wire Wire Line
+	4600 2100 4600 1900
+Wire Wire Line
+	4600 1900 4800 1900
+Connection ~ 4600 1900
+Text Label 4000 2100 0    70   ~ 0
+SCL_3.3V
+Wire Wire Line
+	6200 3800 5600 3800
+Text Label 5700 3800 0    70   ~ 0
+SCL_3.3V
+Wire Wire Line
+	5600 2400 5600 2200
+Wire Wire Line
+	5600 2200 6200 2200
+Wire Wire Line
+	5600 2400 5500 2400
+Connection ~ 5600 2400
+Text Label 5700 2200 0    70   ~ 0
+SDA
+Wire Wire Line
+	7000 1900 7700 1900
+Text Label 7000 1900 0    70   ~ 0
+SDA
+Wire Wire Line
+	5200 1900 5600 1900
+Wire Wire Line
+	5600 1900 5600 2100
+Wire Wire Line
+	5600 2100 6200 2100
+Connection ~ 5600 1900
+Text Label 5700 2100 0    70   ~ 0
+SCL
+Wire Wire Line
+	7700 2000 7000 2000
+Text Label 7000 2000 0    70   ~ 0
+SCL
+Wire Wire Line
+	4900 1700 4900 1400
+Text Label 4900 1700 0    10   ~ 0
++3V3
+Wire Wire Line
+	5200 2100 5200 2200
+Text Label 5200 2100 0    10   ~ 0
++3V3
+Wire Wire Line
+	4600 1400 4600 1500
+Text Label 4600 1400 0    10   ~ 0
++3V3
+Wire Wire Line
+	4600 2900 4600 2800
+Text Label 4600 2900 0    10   ~ 0
++3V3
+Wire Wire Line
+	4000 3900 4000 3800
+Connection ~ 4000 3800
+Text Label 4600 3800 0    10   ~ 0
++3V3
+Wire Wire Line
+	8000 3700 8200 3700
+Wire Wire Line
+	8200 3700 8200 3600
+Wire Wire Line
+	8200 3900 8200 3700
+Connection ~ 8200 3700
+Text Label 8000 3700 0    10   ~ 0
++3V3
+Wire Wire Line
+	7700 2200 8100 2200
+Wire Wire Line
+	8100 2200 8100 2100
+Text Label 7700 2200 0    10   ~ 0
++3V3
+Wire Wire Line
+	5600 1400 5600 1500
+Text Label 5600 1400 0    10   ~ 0
+VIN
+Wire Wire Line
+	5600 2900 5600 2800
+Text Label 5600 2900 0    10   ~ 0
+VIN
+Wire Wire Line
+	7200 3700 6900 3700
+Wire Wire Line
+	6900 3700 6900 3600
+Wire Wire Line
+	7200 3800 6900 3800
+Wire Wire Line
+	6900 3800 6900 3700
+Wire Wire Line
+	6900 3800 6900 3900
+Connection ~ 6900 3700
+Connection ~ 6900 3800
+Text Label 7200 3700 0    10   ~ 0
+VIN
+Wire Wire Line
+	7700 2300 8400 2300
+Wire Wire Line
+	8400 2300 8400 2100
+Text Label 7700 2300 0    10   ~ 0
+VIN
+Wire Wire Line
+	4000 4200 4000 4300
+Wire Wire Line
+	4000 4300 4000 4400
+Wire Wire Line
+	4000 4300 4500 4300
+Wire Wire Line
+	4500 4300 4500 4000
+Wire Wire Line
+	4500 4000 4600 4000
+Connection ~ 4000 4300
+Text Label 4000 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	6900 4200 6900 4300
+Text Label 6900 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	8200 4200 8200 4300
+Text Label 8200 4200 0    10   ~ 0
+GND
+Wire Wire Line
+	7200 3900 7100 3900
+Wire Wire Line
+	7100 3900 7100 4300
+Text Label 7200 3900 0    10   ~ 0
+GND
+Wire Wire Line
+	7700 2100 7500 2100
+Text Label 7700 2100 0    10   ~ 0
+GND
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:FRAME_A4 #FRAME1
+U 1 0 CC96BE83
+P 900 6900
+F 0 "#FRAME1" H 900 6900 50  0001 C CNN
+F 1 "FRAME_A4" H 900 6900 50  0001 C CNN
+F 2 "" H 900 6900 50  0001 C CNN
+F 3 "" H 900 6900 50  0001 C CNN
+	1    900  6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:FRAME_A4 #FRAME1
+U 2 0 CC96BE8F
+P 6200 6800
+F 0 "#FRAME1" H 6200 6800 50  0001 C CNN
+F 1 "FRAME_A4" H 6200 6800 50  0001 C CNN
+F 2 "" H 6200 6800 50  0001 C CNN
+F 3 "" H 6200 6800 50  0001 C CNN
+	2    6200 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:SI7021-A20 U2
+U 1 0 54BAF1CF
+P 5100 3900
+F 0 "U2" H 4700 4400 42  0000 L BNN
+F 1 "Si7021-A20" H 4700 3400 42  0000 L BNN
+F 2 "Adafruit Si7021 Humidity:DFN6_3X3_SI" H 5100 3900 50  0001 C CNN
+F 3 "" H 5100 3900 50  0001 C CNN
+	1    5100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+3V3 #+3V02
+U 1 0 816AD438
+P 4900 1300
+F 0 "#+3V02" H 4900 1300 50  0001 C CNN
+F 1 "+3V3" V 4800 1100 59  0000 L BNN
+F 2 "" H 4900 1300 50  0001 C CNN
+F 3 "" H 4900 1300 50  0001 C CNN
+	1    4900 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+3V3 #+3V03
+U 1 0 EB5F8C4A
+P 5200 2000
+F 0 "#+3V03" H 5200 2000 50  0001 C CNN
+F 1 "+3V3" V 5100 1800 59  0000 L BNN
+F 2 "" H 5200 2000 50  0001 C CNN
+F 3 "" H 5200 2000 50  0001 C CNN
+	1    5200 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:RESISTOR0805_NOOUTLINE R2
+U 1 0 0F3C4881
+P 5600 1700
+F 0 "R2" H 5600 1800 50  0000 C CNN
+F 1 "10K" H 5600 1700 40  0000 C CNB
+F 2 "Adafruit Si7021 Humidity:0805-NO" H 5600 1700 50  0001 C CNN
+F 3 "" H 5600 1700 50  0001 C CNN
+	1    5600 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:RESISTOR0805_NOOUTLINE R3
+U 1 0 2A684572
+P 5600 2600
+F 0 "R3" H 5600 2700 50  0000 C CNN
+F 1 "10K" H 5600 2600 40  0000 C CNB
+F 2 "Adafruit Si7021 Humidity:0805-NO" H 5600 2600 50  0001 C CNN
+F 3 "" H 5600 2600 50  0001 C CNN
+	1    5600 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:RESISTOR0805_NOOUTLINE R4
+U 1 0 30FCCEAE
+P 4600 2600
+F 0 "R4" H 4600 2700 50  0000 C CNN
+F 1 "10K" H 4600 2600 40  0000 C CNB
+F 2 "Adafruit Si7021 Humidity:0805-NO" H 4600 2600 50  0001 C CNN
+F 3 "" H 4600 2600 50  0001 C CNN
+	1    4600 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:RESISTOR0805_NOOUTLINE R1
+U 1 0 DE04AF3C
+P 4600 1700
+F 0 "R1" H 4600 1800 50  0000 C CNN
+F 1 "10K" H 4600 1700 40  0000 C CNB
+F 2 "Adafruit Si7021 Humidity:0805-NO" H 4600 1700 50  0001 C CNN
+F 3 "" H 4600 1700 50  0001 C CNN
+	1    4600 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+3V3 #+3V04
+U 1 0 3511C8A8
+P 4600 1300
+F 0 "#+3V04" H 4600 1300 50  0001 C CNN
+F 1 "+3V3" V 4500 1100 59  0000 L BNN
+F 2 "" H 4600 1300 50  0001 C CNN
+F 3 "" H 4600 1300 50  0001 C CNN
+	1    4600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+3V3 #+3V05
+U 1 0 54464806
+P 4600 3000
+F 0 "#+3V05" H 4600 3000 50  0001 C CNN
+F 1 "+3V3" V 4500 2800 59  0000 L BNN
+F 2 "" H 4600 3000 50  0001 C CNN
+F 3 "" H 4600 3000 50  0001 C CNN
+	1    4600 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+5V #P+01
+U 1 0 6A081B6E
+P 5600 1300
+F 0 "#P+01" H 5600 1300 50  0001 C CNN
+F 1 "+5V" V 5500 1100 59  0000 L BNN
+F 2 "" H 5600 1300 50  0001 C CNN
+F 3 "" H 5600 1300 50  0001 C CNN
+	1    5600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+5V #P+03
+U 1 0 48C2C5DB
+P 5600 3000
+F 0 "#P+03" H 5600 3000 50  0001 C CNN
+F 1 "+5V" V 5500 2800 59  0000 L BNN
+F 2 "" H 5600 3000 50  0001 C CNN
+F 3 "" H 5600 3000 50  0001 C CNN
+	1    5600 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:MOSFET-NWIDE Q1
+U 1 0 2DF1A311
+P 5000 1800
+F 0 "Q1" H 5200 1825 42  0000 L BNN
+F 1 "BSS138" H 5200 1750 42  0000 L BNN
+F 2 "Adafruit Si7021 Humidity:SOT23-WIDE" H 5000 1800 50  0001 C CNN
+F 3 "" H 5000 1800 50  0001 C CNN
+	1    5000 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:MOSFET-NWIDE Q2
+U 1 0 F300EB37
+P 5300 2300
+F 0 "Q2" H 5500 2325 42  0000 L BNN
+F 1 "BSS138" H 5500 2250 42  0000 L BNN
+F 2 "Adafruit Si7021 Humidity:SOT23-WIDE" H 5300 2300 50  0001 C CNN
+F 3 "" H 5300 2300 50  0001 C CNN
+	1    5300 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+3V3 #+3V01
+U 1 0 7D977A11
+P 4000 3500
+F 0 "#+3V01" H 4000 3500 50  0001 C CNN
+F 1 "+3V3" V 3900 3300 59  0000 L BNN
+F 2 "" H 4000 3500 50  0001 C CNN
+F 3 "" H 4000 3500 50  0001 C CNN
+	1    4000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:GND #U$02
+U 1 0 87B7DF34
+P 4000 4500
+F 0 "#U$02" H 4000 4500 50  0001 C CNN
+F 1 "GND" H 3940 4400 42  0000 L BNN
+F 2 "" H 4000 4500 50  0001 C CNN
+F 3 "" H 4000 4500 50  0001 C CNN
+	1    4000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:CAP_CERAMIC0805-NOOUTLINE C1
+U 1 0 AC59532D
+P 4000 4100
+F 0 "C1" V 3910 4149 50  0000 C CNN
+F 1 "0.1uF" V 4090 4149 50  0000 C CNN
+F 2 "Adafruit Si7021 Humidity:0805-NO" H 4000 4100 50  0001 C CNN
+F 3 "" H 4000 4100 50  0001 C CNN
+	1    4000 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:VREG_SOT23-5 U1
+U 1 0 92810F9E
+P 7600 3800
+F 0 "U1" H 7300 4040 42  0000 L BNN
+F 1 "MIC5225-3.3" H 7300 3500 42  0000 L BNN
+F 2 "Adafruit Si7021 Humidity:SOT23-5" H 7600 3800 50  0001 C CNN
+F 3 "" H 7600 3800 50  0001 C CNN
+	1    7600 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:CAP_CERAMIC0805-NOOUTLINE C2
+U 1 0 8350CC17
+P 6900 4100
+F 0 "C2" V 6810 4149 50  0000 C CNN
+F 1 "10uF" V 6990 4149 50  0000 C CNN
+F 2 "Adafruit Si7021 Humidity:0805-NO" H 6900 4100 50  0001 C CNN
+F 3 "" H 6900 4100 50  0001 C CNN
+	1    6900 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:CAP_CERAMIC0805-NOOUTLINE C3
+U 1 0 C3EA450F
+P 8200 4100
+F 0 "C3" V 8110 4149 50  0000 C CNN
+F 1 "10uF" V 8290 4149 50  0000 C CNN
+F 2 "Adafruit Si7021 Humidity:0805-NO" H 8200 4100 50  0001 C CNN
+F 3 "" H 8200 4100 50  0001 C CNN
+	1    8200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+3V3 #+3V06
+U 1 0 776068A4
+P 8200 3500
+F 0 "#+3V06" H 8200 3500 50  0001 C CNN
+F 1 "+3V3" V 8100 3300 59  0000 L BNN
+F 2 "" H 8200 3500 50  0001 C CNN
+F 3 "" H 8200 3500 50  0001 C CNN
+	1    8200 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+5V #P+02
+U 1 0 637B3A6A
+P 6900 3500
+F 0 "#P+02" H 6900 3500 50  0001 C CNN
+F 1 "+5V" V 6800 3300 59  0000 L BNN
+F 2 "" H 6900 3500 50  0001 C CNN
+F 3 "" H 6900 3500 50  0001 C CNN
+	1    6900 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:GND #U$03
+U 1 0 6E1B97F5
+P 6900 4400
+F 0 "#U$03" H 6900 4400 50  0001 C CNN
+F 1 "GND" H 6840 4300 42  0000 L BNN
+F 2 "" H 6900 4400 50  0001 C CNN
+F 3 "" H 6900 4400 50  0001 C CNN
+	1    6900 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:GND #U$04
+U 1 0 649D799B
+P 8200 4400
+F 0 "#U$04" H 8200 4400 50  0001 C CNN
+F 1 "GND" H 8140 4300 42  0000 L BNN
+F 2 "" H 8200 4400 50  0001 C CNN
+F 3 "" H 8200 4400 50  0001 C CNN
+	1    8200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:GND #U$05
+U 1 0 BCE09641
+P 7100 4400
+F 0 "#U$05" H 7100 4400 50  0001 C CNN
+F 1 "GND" H 7040 4300 42  0000 L BNN
+F 2 "" H 7100 4400 50  0001 C CNN
+F 3 "" H 7100 4400 50  0001 C CNN
+	1    7100 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:FIDUCIAL"" FID1
+U 1 0 57AF2ED6
+P 10800 5300
+F 0 "FID1" H 10800 5300 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 10800 5300 50  0001 C CNN
+F 2 "Adafruit Si7021 Humidity:FIDUCIAL_1MM" H 10800 5300 50  0001 C CNN
+F 3 "" H 10800 5300 50  0001 C CNN
+	1    10800 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:FIDUCIAL"" FID2
+U 1 0 AD69ACBC
+P 10700 5300
+F 0 "FID2" H 10700 5300 50  0001 C CNN
+F 1 "FIDUCIAL\"\"" H 10700 5300 50  0001 C CNN
+F 2 "Adafruit Si7021 Humidity:FIDUCIAL_1MM" H 10700 5300 50  0001 C CNN
+F 3 "" H 10700 5300 50  0001 C CNN
+	1    10700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:MOUNTINGHOLE2.5 U$6
+U 1 0 CE08125E
+P 10500 5300
+F 0 "U$6" H 10500 5300 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5" H 10500 5300 50  0001 C CNN
+F 2 "Adafruit Si7021 Humidity:MOUNTINGHOLE_2.5_PLATED" H 10500 5300 50  0001 C CNN
+F 3 "" H 10500 5300 50  0001 C CNN
+	1    10500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:MOUNTINGHOLE2.5 U$7
+U 1 0 63C62AE7
+P 10300 5300
+F 0 "U$7" H 10300 5300 50  0001 C CNN
+F 1 "MOUNTINGHOLE2.5" H 10300 5300 50  0001 C CNN
+F 2 "Adafruit Si7021 Humidity:MOUNTINGHOLE_2.5_PLATED" H 10300 5300 50  0001 C CNN
+F 3 "" H 10300 5300 50  0001 C CNN
+	1    10300 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:HEADER-1X570MIL JP1
+U 1 0 0B60073D
+P 7800 2100
+F 0 "JP1" H 7550 2425 59  0000 L BNN
+F 1 "HEADER-1X570MIL" H 7550 1700 59  0000 L BNN
+F 2 "Adafruit Si7021 Humidity:1X05_ROUND_70" H 7800 2100 50  0001 C CNN
+F 3 "" H 7800 2100 50  0001 C CNN
+	1    7800 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:GND #U$08
+U 1 0 59F585D1
+P 7400 2100
+F 0 "#U$08" H 7400 2100 50  0001 C CNN
+F 1 "GND" H 7340 2000 42  0000 L BNN
+F 2 "" H 7400 2100 50  0001 C CNN
+F 3 "" H 7400 2100 50  0001 C CNN
+	1    7400 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+3V3 #+3V07
+U 1 0 A67731B0
+P 8100 2000
+F 0 "#+3V07" H 8100 2000 50  0001 C CNN
+F 1 "+3V3" V 8000 1800 59  0000 L BNN
+F 2 "" H 8100 2000 50  0001 C CNN
+F 3 "" H 8100 2000 50  0001 C CNN
+	1    8100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Adafruit_Si7021_Humidity-eagle-import:+5V #P+04
+U 1 0 459FCD94
+P 8400 2000
+F 0 "#P+04" H 8400 2000 50  0001 C CNN
+F 1 "+5V" V 8300 1800 59  0000 L BNN
+F 2 "" H 8400 2000 50  0001 C CNN
+F 3 "" H 8400 2000 50  0001 C CNN
+	1    8400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3800 4600 3800
+Wire Wire Line
+	4000 3600 4000 3800
+$EndSCHEMATC

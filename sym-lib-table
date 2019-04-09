@@ -2,4 +2,6 @@
   (lib (name TheThing)(type Legacy)(uri "C:/Academics/Senior Project/KiCad/PCB layout/SparkFun-Boards.lib")(options "")(descr ""))
   (lib (name "Adafruit RFM+LoRa Breakout-cache")(type Legacy)(uri "${KIPRJMOD}/Adafruit RFM+LoRa Breakout/Adafruit RFM+LoRa Breakout-cache.lib")(options "")(descr ""))
   (lib (name Adafruit_RFM+LoRa_Breakout-eagle-import)(type Legacy)(uri "${KIPRJMOD}/Adafruit RFM+LoRa Breakout/Adafruit_RFM+LoRa_Breakout-eagle-import.lib")(options "")(descr ""))
+  (lib (name PCB_layout-eagle-import)(type Legacy)(uri ${KIPRJMOD}/PCB_layout-eagle-import.lib)(options "")(descr ""))
+  (lib (name PCB-layout-rescue)(type Legacy)(uri "${KIPRJMOD}/PCB layout-rescue.lib")(options "")(descr ""))
 )

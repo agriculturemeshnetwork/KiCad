@@ -4,4 +4,5 @@
   (lib (name "PCB layout")(type KiCad)(uri "C:/Academics/Senior Project/KiCad/PCB layout.pretty")(options "")(descr ""))
   (lib (name "Adafruit RFM+LoRa Breakout")(type KiCad)(uri "${KIPRJMOD}/Adafruit RFM+LoRa Breakout/Adafruit RFM+LoRa Breakout.pretty")(options "")(descr ""))
   (lib (name Libaries)(type KiCad)(uri ${KIPRJMOD}/Libaries.pretty)(options "")(descr ""))
+  (lib (name Adafruit-Si7021-PCB-master)(type KiCad)(uri ${KIPRJMOD}/Adafruit-Si7021-PCB-master.pretty)(options "")(descr ""))
 )
